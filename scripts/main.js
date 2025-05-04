@@ -26,9 +26,9 @@ getRoutesData().then(async routesData => {
     const connection = await mysql.createConnection({
         host: '192.168.3.7',
         port: 3306,
-        user: 'root',
-        password: 'mysql_eKSxTr',
-        database: 'DailyHotApi'
+        user: 'DailyHot',
+        password: 'y83jtkyrnSPRaewp',
+        database: 'DailyHot'
     });
     
     console.log('Database connection established');
